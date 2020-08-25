@@ -1,0 +1,379 @@
+@import url('https://fonts.googleapis.com/css2?family=Francois+One&family=Nunito+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 10px;
+    background: rgba(219, 4, 80);
+}
+
+.logo1{
+    margin-left: 20em;
+}
+
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 10px;  
+}
+
+nav ul li{
+    margin:0 20px;
+}
+
+.logo-text{
+    font-size: 3em;
+    font-weight: 400;
+    color: #ffffff;
+    margin-left: 5em;
+}
+.nav-lin{
+    font-size: 1.8em;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.nav-lin:hover{
+    color: #f50136;
+}
+  
+
+#home{
+    /* background: rgba(218, 39, 99, 0.733); */
+    color: white;
+    height: 600px;
+    padding-top: 200px;
+}
+
+
+
+header div p{
+    font-size:2.5em;
+    font-weight: 200;
+}
+
+h1,
+h3,
+h4{
+    font-weight: 1000;
+}
+
+h2{
+    font-weight: 500;
+}
+
+h1{
+    font-size: 6em;
+}
+h2{
+font-size: 4em;
+}
+h3{
+font-size: 2.5em;
+}
+h4{
+font-size: 1.8em;
+}
+.link-button{
+    text-decoration: none;
+    text-align: center;
+    background: #f50136;
+    cursor: pointer;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    color:white;
+    font-size: 1.8em;
+    padding: 10px;
+    border-radius: 5%;
+    border-color: black;
+}
+.link-button:hover{
+    color:white
+}
+
+.button{
+    text-decoration: none;
+    text-align: center;
+    background: #f50136;
+    cursor: pointer;
+    font-weight: 100;
+    letter-spacing: 0.5px;
+    color:white;
+    font-size: 1.8em;
+    padding: 10px;
+    border-radius: 5%;
+    border-color: black;
+}
+
+#bio{
+    background-color: white;
+    height: 700px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#bio img{
+    border-radius:6%;
+    border-color: black;
+}
+
+#bio article{
+    margin: 25px;
+  
+}
+
+#biod{
+    border: black;
+    border-radius: 5%;
+}
+
+.break{
+    display: block;
+}
+
+
+p{
+    font-size: 1.5em;
+    font-style: normal;
+}
+
+hr{
+    width: 400px;
+}
+
+.books{
+    margin-left: 70px;
+    padding-left: 700px;
+}
+
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#price{
+    background:white;
+    color:black;
+    height: 800px;
+    
+}
+
+#price, #app{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    padding: 50px;
+}
+
+#price div{
+    display: flex;
+    justify-content: space-around;
+    margin:10px 0;
+    width: 100%;
+}
+
+#price h3,p,hr{
+    margin-bottom: 20px;
+}
+
+#price div article{
+    background: white;
+    color: black;
+    height:200px;
+    width:250px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border: black;
+    border-radius: 10px;
+}
+
+#price button{
+    text-decoration: none;
+    text-align: center;
+    background:rgb(131, 125, 125);
+    cursor: pointer;
+    font-weight: 5px;
+    letter-spacing: 0.5px;
+    color:black;
+    font-size: 1.8em;
+    /* padding: 10px; */
+    border-radius: 20%;
+    border-color: black;
+}
+
+#price div article p{
+    padding: 0 5px;
+}
+
+#app-container{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    width: 40%;
+}
+
+#app-container div{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+}
+
+#app button{
+    text-decoration: none;
+    text-align: center;
+    background:white;
+    cursor: pointer;
+    font-weight: 5px;
+    letter-spacing: 0.5px;
+    color:black;
+    font-size: 1.8em;
+    /* padding: 10px; */
+    border-radius: 4%;
+    border-color: black;
+}
+#review{
+    background: white;
+    color: black;
+    height: 500px;;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 20px;
+    border: black;
+   
+}
+
+#review img{
+       
+        width:200px;
+        height: 100px;
+        border-radius: 40%;
+        margin-top: 100px;
+   
+}
+
+#review div{
+    display: flex;
+    justify-content: space-around;
+    margin:10px 0;
+    width: 100%;
+}
+
+#review div article{
+    background: white;
+    border: black;
+    color: black;
+    height:200px;
+    width:250px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#review div article p{
+    padding: 0 3px;
+}
+
+
+#footer{
+    background-color: rgb(68, 66, 66);
+    color: white;
+    list-style: none;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 100px; */
+    /* flex-direction: column;
+    
+    align-items: center; */
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-right: 300px;
+}
+
+
+/* .input{
+    line-height: 2em;
+    width:350px;
+    border-radius: 3px;
+    border-color:black;
+    margin: 20px 0;
+
+} */
+
+/* #contact form input:last-child{
+    margin-top: 40px;
+} */
+
+/* #Contact form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+} */
+
+
+#features{
+    background: black;
+    color:white;
+    
+}
+
+#features img{
+    opacity: 30%;
+    width: 1900px;
+    height: 600px;
+}
+
+#features, #app{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    padding: 50px;
+}
+
+#features div{
+    display: flex;
+    justify-content: space-around;
+    margin:10px 0;
+    width: 100%;
+}
+
+#features h3,p,hr{
+    margin-bottom: 20px;
+}
+
+#features div article{
+    background: white;
+    color: black;
+    height:200px;
+    width:250px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#features div article p{
+    padding: 0 5px;
+}
